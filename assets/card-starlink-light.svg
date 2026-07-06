@@ -1,0 +1,51 @@
+<svg width="440" height="176" viewBox="0 0 440 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif} .mono{font-family:'SF Mono','JetBrains Mono',Consolas,monospace}
+
+@keyframes sigPulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+@keyframes sigSwapDn{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(8px)}76%,100%{transform:translateY(0)}}
+@keyframes sigSwapUp{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(-8px)}76%,100%{transform:translateY(0)}}
+@keyframes sigBadOut{0%,38%{transform:translateY(0);opacity:.3}54%,82%{transform:translateY(7px);opacity:0}94%,100%{transform:translateY(0);opacity:.3}}
+@keyframes sigFlow{to{stroke-dashoffset:-24}}
+@keyframes sigDrawC1{0%,4%{stroke-dashoffset:1}18%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes sigDrawC2{0%,10%{stroke-dashoffset:1}24%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes sigDrawC3{0%,12%{stroke-dashoffset:1;opacity:.7}22%,58%{stroke-dashoffset:0;opacity:.7}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes sigDrawA1{0%,26%{stroke-dashoffset:1}34%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes sigDrawA2{0%,30%{stroke-dashoffset:1}38%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes sigDrawChk{0%,40%{stroke-dashoffset:1}48%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes sigGate{0%,20%{opacity:.7}24%{opacity:1}28%{opacity:.5}32%{opacity:1}38%,100%{opacity:.7}}
+@keyframes sigDrawX{0%,28%{stroke-dashoffset:1;opacity:1}36%,58%{stroke-dashoffset:0;opacity:1}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes sigSeg{0%{stroke-dashoffset:1}9%{stroke-dashoffset:0}76%{stroke-dashoffset:0}86%,100%{stroke-dashoffset:1}}
+@keyframes sigRing{0%,44%{transform:scale(1);opacity:0}50%{opacity:.8}68%{transform:scale(2.1);opacity:0}100%{transform:scale(1);opacity:0}}
+@keyframes sigSus{0%,42%{transform:scale(1)}52%{transform:scale(1.35)}62%,100%{transform:scale(1)}}
+@keyframes sigDot{0%{transform:translateX(0);opacity:0}6%{opacity:1}26%,44%{transform:translateX(15px);opacity:1}58%{transform:translateX(22px);opacity:1}66%{transform:translateX(27px);opacity:0}100%{transform:translateX(0);opacity:0}}
+@keyframes sigHitl{0%,26%{opacity:.6}30%{opacity:1}34%{opacity:.6}38%{opacity:1}44%,100%{opacity:.6}}
+@keyframes sigGateHold{0%,26%{opacity:1}30%,44%{opacity:.45}48%,100%{opacity:1}}
+@keyframes sigKFlick{0%,100%{opacity:.5}50%{opacity:.85}}
+
+.ss-in,.ss-out{stroke-dasharray:8 4;animation:sigFlow 2.4s linear infinite}
+.ss-node{animation:sigPulse 2.4s ease-in-out infinite}
+.ss-ear{animation:sigPulse 2.4s ease-in-out .6s infinite}
+.sig *{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="438" height="174" rx="10" fill="#ffffff" stroke="#1d4ed8" stroke-opacity=".38"/>
+<rect x="1" y="1" width="438" height="174" rx="10" fill="#1d4ed8" opacity="0.045"/>
+<g class="sig" transform="translate(22,50) scale(1.6)"><g stroke="#1d4ed8" stroke-width="1.5" stroke-linecap="round" fill="none">
+  <path class="ss-in" pathLength="24" d="M3 24 C5 17,7 17,9 24 S13 32,15 24 S19 15,21 24" opacity=".85"/>
+  <rect class="ss-node" x="22" y="20.5" width="7" height="7" rx="1" transform="rotate(45 25.5 24)" stroke="#7a1f2d"/>
+  <path class="ss-out" pathLength="24" d="M31 24 C32.5 20,34 20,35.5 24 S38.5 28,40 24 S43 20,44.5 24" opacity=".85"/>
+  <circle class="ss-ear" cx="45.5" cy="24" r="1.7" fill="#1d4ed8" stroke="none"/>
+</g></g>
+<text x="118" y="38" font-size="19" font-weight="700" fill="#1f2328">StarLink</text>
+<text x="118" y="57" font-size="12" fill="#656d76">실시간 통역 iOS</text>
+<text class="mono" x="118" y="84" font-size="12" font-weight="600" fill="#1d4ed8">EN·JA·ZH → KO 3개 언어쌍</text>
+<text class="mono" x="118" y="103" font-size="11" fill="#656d76">디버깅 포스트모템 13편</text>
+<text x="118" y="128" font-size="10.5" fill="#656d76">실시간 오디오 파이프라인 통합과 플랫폼 제약 디버깅</text>
+<text x="118" y="144" font-size="10.5" font-weight="600" fill="#1f2328">증명 역량 — Realtime/멀티모달 AI 엔지니어링</text>
+<g class="mono" font-size="9">
+  <rect x="116" y="153" width="74" height="16" rx="3" fill="none" stroke="#d0d7de"/>
+  <text x="122" y="164" fill="#656d76">작동 프로토타입</text>
+</g>
+<text class="mono" x="424" y="165" font-size="10" font-weight="600" fill="#1d4ed8" text-anchor="end">포트폴리오 →</text>
+</svg>

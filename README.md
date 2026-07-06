@@ -49,7 +49,7 @@ B2B 콘텐츠 제안 PM으로 3년간 누적 **17.18억 원** 매출을 책임�
 
 - 🗺 **[Learning Atlas](https://ljhljh0703-cmd.github.io/learning-atlas/)** — 학습 아카이브. 182편, 매주 자동 갱신, 누출 0. 이 포트폴리오를 만든 시스템입니다.
 - 🎨 **[Vibe Design Studio](https://ljhljh0703-cmd.github.io/VDS/)** — 디자인 시스템 스튜디오. 카탈로그 77 · 프리셋 33, 카드마다 복붙 DESIGN.md.
-- 🎮 **[주형 유니버스](https://ljhljh0703-cmd.github.io/learning-atlas/village/)** — 이력서를 걸어서 탐험하는 인터랙티브 월드.
+- 🎮 **[주형 유니버스](https://ljhljh0703-cmd.github.io/learning-atlas/village/)** — 광활한 우주에서 포폴행성을 탐험하는 인터랙티브 월드.
 
 ### 수치를 읽는 법
 

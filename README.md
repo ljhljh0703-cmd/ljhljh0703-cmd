@@ -38,9 +38,15 @@ B2B 콘텐츠 제안 PM으로 3년간 누적 **17.18억 원** 매출을 책임�
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-starlink-dark.svg"><img alt="StarLink — 실시간 통역 iOS. 보청기로 듣는 핸즈프리 통역, EN·JA·ZH→KO" src="assets/card-starlink-light.svg" width="100%"></picture>
 </a>
 </td>
-<td width="50%" align="center" valign="middle">
-<a href="https://github.com/ljhljh0703-cmd?tab=repositories"><b>+ 전체 저장소 보기 →</b></a><br>
-<sub>Game-PM AI Suite · AI Game Dev 등은 포트폴리오 완성 후 카드로 합류합니다.</sub>
+<td width="50%">
+<a href="https://penelope-ontology.vercel.app">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-penelope-dark.svg"><img alt="페넬로페 · 세계관 온톨로지 서사 엔진. 문단 생성 전 세계 설정과 인과 상태를 먼저 시뮬레이션. Vitest 893 통과" src="assets/card-penelope-light.svg" width="100%"></picture>
+</a>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="middle">
+<a href="https://github.com/ljhljh0703-cmd?tab=repositories"><b>+ 전체 저장소 보기 →</b></a> · <sub>Game-PM AI Suite · AI Game Dev 등은 포트폴리오 완성 후 카드로 합류합니다.</sub>
 </td>
 </tr>
 </table>

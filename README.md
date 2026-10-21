@@ -1,6 +1,6 @@
-<img alt="이주형 · 현장의 문제를 정의하고 AI로 해결하는 엔지니어. Cofathon 2026 KRAFTON FDE 트랙 최우수 수상 · 제안 PM으로 참여한 제안의 누적 매출 17.18억 · 제안서 완성 기간 5일 → 2일 · 위메이드엑스알 AI 엔지니어 인턴" src="assets/banner.svg" width="100%">
+<img alt="이주형 · 현장의 문제를 정의하고 AI로 해결하는 엔지니어. Cofathon 2026 KRAFTON FDE 트랙 최우수 수상 · B2B 제안 PM 2년 6개월 재직 동안 누적 매출 17.18억 원 · 제안서 완성 기간 5일 → 2일 · 위메이드엑스알 AI 엔지니어 인턴" src="assets/banner.svg" width="100%">
 
-Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드엑스알에서 AI 엔지니어 인턴으로 일합니다. 제안 PM으로 참여한 제안의 누적 매출 17억, 그때처럼 쓰는 사람의 기준을 먼저 받아 와 AI가 그 기준대로 움직이게 만들고 결과를 잽니다.
+Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드엑스알에서 AI 엔지니어 인턴으로 일합니다. B2B 제안 PM으로 2년 6개월 재직 동안 누적 매출 17.18억 원을 냈고, 지금도 그때처럼 쓰는 사람의 기준을 먼저 받아 와 AI가 그 기준대로 움직이게 만들고 결과를 잽니다.
 
 작품 모음 [ljhljh0703-cmd.github.io](https://ljhljh0703-cmd.github.io/) · 메일 [ljhljh0703@gmail.com](mailto:ljhljh0703@gmail.com)
 

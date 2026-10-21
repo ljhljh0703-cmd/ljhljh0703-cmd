@@ -1,0 +1,52 @@
+<svg width="920" height="210" viewBox="0 0 920 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif}
+
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+@keyframes swapDn{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(8px)}76%,100%{transform:translateY(0)}}
+@keyframes swapUp{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(-8px)}76%,100%{transform:translateY(0)}}
+@keyframes badOut{0%,38%{transform:translateY(0);opacity:.3}54%,82%{transform:translateY(7px);opacity:0}94%,100%{transform:translateY(0);opacity:.3}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes drawA{0%,4%{stroke-dashoffset:1}18%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawB{0%,10%{stroke-dashoffset:1}24%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawC{0%,12%{stroke-dashoffset:1;opacity:.7}22%,58%{stroke-dashoffset:0;opacity:.7}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes drawD{0%,26%{stroke-dashoffset:1}34%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawE{0%,30%{stroke-dashoffset:1}38%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawChk{0%,40%{stroke-dashoffset:1}48%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawLate{0%,56%{stroke-dashoffset:1}64%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes gate{0%,20%{opacity:.7}24%{opacity:1}28%{opacity:.5}32%{opacity:1}38%,100%{opacity:.7}}
+@keyframes drawX{0%,28%{stroke-dashoffset:1;opacity:1}36%,58%{stroke-dashoffset:0;opacity:1}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes cover{0%,30%{opacity:0;transform:translateY(-5px)}44%,84%{opacity:.75;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+@keyframes threat{0%,30%{opacity:1}44%,84%{opacity:.25}96%,100%{opacity:1}}
+@keyframes travel{0%{transform:translateX(0);opacity:0}6%{opacity:1}60%{transform:translateX(36px);opacity:1}70%,100%{transform:translateX(36px);opacity:0}}
+@keyframes drop{0%,30%{transform:translateY(-12px);opacity:0}40%,60%{transform:translateY(0);opacity:1}76%,100%{transform:translateY(6px);opacity:0}}
+
+.sig *{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.ul{animation:pulse 4.8s ease-in-out infinite}
+.sc1{animation:pulse 4.8s ease-in-out infinite}
+</style>
+<rect x="1" y="1" width="918" height="208" rx="3" fill="#f1e9d8" stroke="#1b1a17" stroke-width="1.5"/>
+<g opacity=".9">
+  <rect x="806" y="22" width="70" height="44" fill="#4b4ad1" opacity=".75" transform="rotate(8 841 44)"/>
+  <rect x="770" y="40" width="58" height="38" fill="#207878" opacity=".7" transform="rotate(-10 799 59)"/>
+  <rect class="sc1" x="838" y="62" width="40" height="28" fill="#c0412a" opacity=".8" transform="rotate(4 858 76)"/>
+  <rect x="790" y="14" width="64" height="14" fill="#e3d2a8" opacity=".9" transform="rotate(-4 822 21)"/>
+</g>
+<rect class="ul" x="40" y="24" width="44" height="5" fill="#c0412a"/>
+<text x="40" y="52" font-size="15" font-weight="800" fill="#5e5647">이주형 <tspan font-size="12" font-weight="600">Lee Ju Hyeong</tspan></text>
+<text x="40" y="96" font-size="30" font-weight="800" fill="#1b1a17">현장의 문제를 정의하고 <tspan fill="#c0412a">AI로 해결하는 엔지니어</tspan></text>
+<text x="40" y="152" font-size="26" font-weight="800" fill="#c0412a">최우수 수상</text>
+<text x="40" y="174" font-size="11.5" font-weight="700" fill="#1b1a17">Cofathon 2026</text>
+<text x="40" y="190" font-size="11" fill="#5e5647">KRAFTON FDE 트랙</text>
+<text x="255" y="152" font-size="26" font-weight="800" fill="#c0412a">17.18억</text>
+<text x="255" y="174" font-size="11.5" font-weight="700" fill="#1b1a17">제안 PM으로 참여한</text>
+<text x="255" y="190" font-size="11" fill="#5e5647">제안의 누적 매출 (2022–2024)</text>
+<text x="470" y="152" font-size="26" font-weight="800" fill="#c0412a">5일 → 2일</text>
+<text x="470" y="174" font-size="11.5" font-weight="700" fill="#1b1a17">제안서 완성 기간 단축</text>
+<text x="470" y="190" font-size="11" fill="#5e5647">제안 PM 시절</text>
+<text x="685" y="152" font-size="20" font-weight="800" fill="#c0412a">AI 엔지니어 인턴</text>
+<text x="685" y="174" font-size="11.5" font-weight="700" fill="#1b1a17">위메이드엑스알</text>
+<text x="685" y="190" font-size="11" fill="#5e5647">2026.08 – 재직 중</text>
+
+</svg>

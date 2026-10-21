@@ -1,0 +1,49 @@
+<svg width="440" height="176" viewBox="0 0 440 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif}
+
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+@keyframes swapDn{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(8px)}76%,100%{transform:translateY(0)}}
+@keyframes swapUp{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(-8px)}76%,100%{transform:translateY(0)}}
+@keyframes badOut{0%,38%{transform:translateY(0);opacity:.3}54%,82%{transform:translateY(7px);opacity:0}94%,100%{transform:translateY(0);opacity:.3}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes drawA{0%,4%{stroke-dashoffset:1}18%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawB{0%,10%{stroke-dashoffset:1}24%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawC{0%,12%{stroke-dashoffset:1;opacity:.7}22%,58%{stroke-dashoffset:0;opacity:.7}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes drawD{0%,26%{stroke-dashoffset:1}34%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawE{0%,30%{stroke-dashoffset:1}38%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawChk{0%,40%{stroke-dashoffset:1}48%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawLate{0%,56%{stroke-dashoffset:1}64%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes gate{0%,20%{opacity:.7}24%{opacity:1}28%{opacity:.5}32%{opacity:1}38%,100%{opacity:.7}}
+@keyframes drawX{0%,28%{stroke-dashoffset:1;opacity:1}36%,58%{stroke-dashoffset:0;opacity:1}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes cover{0%,30%{opacity:0;transform:translateY(-5px)}44%,84%{opacity:.75;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+@keyframes threat{0%,30%{opacity:1}44%,84%{opacity:.25}96%,100%{opacity:1}}
+@keyframes travel{0%{transform:translateX(0);opacity:0}6%{opacity:1}60%{transform:translateX(36px);opacity:1}70%,100%{transform:translateX(36px);opacity:0}}
+@keyframes drop{0%,30%{transform:translateY(-12px);opacity:0}40%,60%{transform:translateY(0);opacity:1}76%,100%{transform:translateY(6px);opacity:0}}
+
+.sig *{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.go-d1{animation:pulse 2.4s ease-in-out infinite}.go-d2{animation:pulse 2.4s ease-in-out .3s infinite}.go-d3{animation:pulse 2.4s ease-in-out .6s infinite}
+.go-f{stroke-dasharray:4 3;animation:flow 2.4s linear infinite}
+.go-r{stroke-dasharray:1;animation:drawE 7.2s ease infinite}
+.go-chk{stroke-dasharray:1;animation:drawLate 7.2s ease infinite}
+</style>
+<rect x="1" y="1" width="438" height="174" rx="3" fill="#f1e9d8" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="16" y="-4" width="56" height="16" fill="#207878" opacity=".55" transform="rotate(-6 44 4)"/>
+<g class="sig" transform="translate(20,50) scale(1.55)"><g stroke="#207878" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <rect x="3" y="10" width="15" height="11" rx="2"/><path d="M7 21 l-2 4 l5 -4"/>
+  <circle class="go-d1" cx="7.5" cy="15.5" r="1.1" fill="#207878" stroke="none"/><circle class="go-d2" cx="10.5" cy="15.5" r="1.1" fill="#207878" stroke="none"/><circle class="go-d3" cx="13.5" cy="15.5" r="1.1" fill="#207878" stroke="none"/>
+  <path class="go-f" d="M19 15.5 L27 15.5"/>
+  <rect x="28" y="8" width="17" height="15" rx="1.5"/><line x1="31" y1="12.5" x2="42" y2="12.5" opacity=".6"/><line x1="31" y1="16" x2="39" y2="16" opacity=".6"/><line x1="31" y1="19.5" x2="36" y2="19.5" opacity=".6"/>
+  <path class="go-r" pathLength="1" d="M36.5 24 C36.5 38, 10.5 38, 10.5 27"/>
+  <path class="go-chk" pathLength="1" d="M19.5 35.5 l2.4 2.4 l4.6 -4.8" stroke="#2f7d3a"/>
+</g></g>
+<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">게임 운영 플랫폼</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">디스코드 버그 제보 → 깃허브 이슈 → 제보자 답장</text>
+<rect x="108" y="72" width="4" height="22" fill="#207878"/>
+<text x="119" y="88.5" font-size="14" font-weight="800" fill="#207878">서버 테스트 214건 통과</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">실제 플레이어 제보 6건 → 개발 지시서 1건</text>
+<line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
+<text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">작동 데모 · 개인</text>
+<text x="422" y="152" font-size="11.5" font-weight="800" fill="#207878" text-anchor="end">사례 보기</text>
+</svg>

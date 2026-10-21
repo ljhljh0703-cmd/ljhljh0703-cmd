@@ -1,0 +1,59 @@
+<svg width="440" height="176" viewBox="0 0 440 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif}
+
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+@keyframes swapDn{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(8px)}76%,100%{transform:translateY(0)}}
+@keyframes swapUp{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(-8px)}76%,100%{transform:translateY(0)}}
+@keyframes badOut{0%,38%{transform:translateY(0);opacity:.3}54%,82%{transform:translateY(7px);opacity:0}94%,100%{transform:translateY(0);opacity:.3}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes drawA{0%,4%{stroke-dashoffset:1}18%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawB{0%,10%{stroke-dashoffset:1}24%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawC{0%,12%{stroke-dashoffset:1;opacity:.7}22%,58%{stroke-dashoffset:0;opacity:.7}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes drawD{0%,26%{stroke-dashoffset:1}34%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawE{0%,30%{stroke-dashoffset:1}38%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawChk{0%,40%{stroke-dashoffset:1}48%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawLate{0%,56%{stroke-dashoffset:1}64%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes gate{0%,20%{opacity:.7}24%{opacity:1}28%{opacity:.5}32%{opacity:1}38%,100%{opacity:.7}}
+@keyframes drawX{0%,28%{stroke-dashoffset:1;opacity:1}36%,58%{stroke-dashoffset:0;opacity:1}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes cover{0%,30%{opacity:0;transform:translateY(-5px)}44%,84%{opacity:.75;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+@keyframes threat{0%,30%{opacity:1}44%,84%{opacity:.25}96%,100%{opacity:1}}
+@keyframes travel{0%{transform:translateX(0);opacity:0}6%{opacity:1}60%{transform:translateX(36px);opacity:1}70%,100%{transform:translateX(36px);opacity:0}}
+@keyframes drop{0%,30%{transform:translateY(-12px);opacity:0}40%,60%{transform:translateY(0);opacity:1}76%,100%{transform:translateY(6px);opacity:0}}
+
+.sig *{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.md-c1{stroke-dasharray:1;animation:drawA 7.2s ease infinite}
+.md-c2{stroke-dasharray:1;animation:drawB 7.2s ease infinite}
+.md-c3{stroke-dasharray:1;animation:drawC 7.2s ease infinite}
+.md-a1{stroke-dasharray:1;animation:drawD 7.2s ease infinite}
+.md-a2{stroke-dasharray:1;animation:drawE 7.2s ease infinite}
+.md-chk{stroke-dasharray:1;animation:drawChk 7.2s ease infinite}
+.md-gate{animation:gate 7.2s ease infinite}
+.md-x{stroke-dasharray:1;animation:drawX 7.2s ease infinite}
+</style>
+<rect x="1" y="1" width="438" height="174" rx="3" fill="#f1e9d8" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="16" y="-4" width="56" height="16" fill="#c0412a" opacity=".55" transform="rotate(-6 44 4)"/>
+<g class="sig" transform="translate(20,50) scale(1.55)"><g stroke="#c0412a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <rect x="4" y="6" width="10" height="12" rx="1"/><line x1="6.5" y1="10" x2="11.5" y2="10" opacity=".5"/><line x1="6.5" y1="13" x2="10" y2="13" opacity=".5"/>
+  <rect x="4" y="18" width="10" height="12" rx="1" opacity=".5" stroke="#8a2f1f"/>
+  <rect x="4" y="30" width="10" height="12" rx="1" opacity=".85"/><line x1="6.5" y1="34" x2="11.5" y2="34" opacity=".5"/><line x1="6.5" y1="37" x2="10" y2="37" opacity=".5"/>
+  <path class="md-c1" pathLength="1" d="M14 12 C22 12,24 20,30 22"/>
+  <path class="md-c2" pathLength="1" d="M14 36 C22 36,24 28,30 26"/>
+  <path class="md-c3" pathLength="1" d="M14 24 L22 24" opacity=".7"/>
+  <line class="md-gate" x1="24" y1="19" x2="24" y2="29" opacity=".7" stroke="#8a2f1f"/>
+  <path class="md-x" pathLength="1" d="M19.6 22.6 L22.4 25.4 M22.4 22.6 L19.6 25.4" stroke-width="1.3" stroke="#8a2f1f"/>
+  <rect x="30" y="16" width="14" height="16" rx="1"/>
+  <line class="md-a1" pathLength="1" x1="33" y1="21" x2="41" y2="21"/>
+  <line class="md-a2" pathLength="1" x1="33" y1="25" x2="39" y2="25"/>
+  <path class="md-chk" pathLength="1" d="M33 29.5 l2.2 2.2 l4.2 -4.2" stroke="#2f7d3a"/>
+</g></g>
+<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">알려줄고양 · 내과 자문 챗봇</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">위험한 질문은 모델 앞에서 거름</text>
+<rect x="108" y="72" width="4" height="22" fill="#c0412a"/>
+<text x="119" y="88.5" font-size="14" font-weight="800" fill="#c0412a">응급 문구 13가지 → 바로 119 안내</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">경고 단어 37개는 경고 뒤 답변</text>
+<line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
+<text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">데모 · 4인 팀 팀장</text>
+<text x="422" y="152" font-size="11.5" font-weight="800" fill="#c0412a" text-anchor="end">사례 보기</text>
+</svg>

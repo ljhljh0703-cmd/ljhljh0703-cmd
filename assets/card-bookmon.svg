@@ -1,0 +1,48 @@
+<svg width="440" height="176" viewBox="0 0 440 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif}
+
+@keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+@keyframes swapDn{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(8px)}76%,100%{transform:translateY(0)}}
+@keyframes swapUp{0%,16%{transform:translateY(0)}30%,60%{transform:translateY(-8px)}76%,100%{transform:translateY(0)}}
+@keyframes badOut{0%,38%{transform:translateY(0);opacity:.3}54%,82%{transform:translateY(7px);opacity:0}94%,100%{transform:translateY(0);opacity:.3}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes drawA{0%,4%{stroke-dashoffset:1}18%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawB{0%,10%{stroke-dashoffset:1}24%,88%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawC{0%,12%{stroke-dashoffset:1;opacity:.7}22%,58%{stroke-dashoffset:0;opacity:.7}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes drawD{0%,26%{stroke-dashoffset:1}34%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawE{0%,30%{stroke-dashoffset:1}38%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawChk{0%,40%{stroke-dashoffset:1}48%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes drawLate{0%,56%{stroke-dashoffset:1}64%,90%{stroke-dashoffset:0}98%,100%{stroke-dashoffset:1}}
+@keyframes gate{0%,20%{opacity:.7}24%{opacity:1}28%{opacity:.5}32%{opacity:1}38%,100%{opacity:.7}}
+@keyframes drawX{0%,28%{stroke-dashoffset:1;opacity:1}36%,58%{stroke-dashoffset:0;opacity:1}66%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes cover{0%,30%{opacity:0;transform:translateY(-5px)}44%,84%{opacity:.75;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+@keyframes threat{0%,30%{opacity:1}44%,84%{opacity:.25}96%,100%{opacity:1}}
+@keyframes travel{0%{transform:translateX(0);opacity:0}6%{opacity:1}60%{transform:translateX(36px);opacity:1}70%,100%{transform:translateX(36px);opacity:0}}
+@keyframes drop{0%,30%{transform:translateY(-12px);opacity:0}40%,60%{transform:translateY(0);opacity:1}76%,100%{transform:translateY(6px);opacity:0}}
+
+.sig *{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.bk-b{animation:swapDn 7.2s cubic-bezier(.4,0,.2,1) infinite}
+.bk-c{animation:swapUp 7.2s cubic-bezier(.4,0,.2,1) infinite}
+.bk-bad{animation:badOut 7.2s ease infinite}
+.bk-dot{animation:pulse 2.4s ease-in-out infinite}
+</style>
+<rect x="1" y="1" width="438" height="174" rx="3" fill="#f1e9d8" stroke="#1b1a17" stroke-width="1.5"/>
+<rect x="16" y="-4" width="56" height="16" fill="#4b4ad1" opacity=".55" transform="rotate(-6 44 4)"/>
+<g class="sig" transform="translate(20,50) scale(1.55)"><g stroke="#4b4ad1" stroke-width="1.5" stroke-linecap="round" fill="none">
+  <line x1="7" y1="8" x2="7" y2="40" opacity=".35"/>
+  <rect x="11" y="9" width="26" height="4.5" rx="1"/><circle class="bk-dot" cx="41.5" cy="11.2" r="1.6" fill="#4b4ad1" stroke="none"/>
+  <rect class="bk-b" x="11" y="17" width="21" height="4.5" rx="1" opacity=".8"/>
+  <rect class="bk-c" x="11" y="25" width="16" height="4.5" rx="1" opacity=".55"/>
+  <rect class="bk-bad" x="11" y="33" width="12" height="4.5" rx="1" opacity=".3" stroke="#c0412a"/>
+</g></g>
+<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">북켓몬 · AI 도서 추천</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">질문의 뜻을 중심에 둔 순위 규칙</text>
+<rect x="108" y="72" width="4" height="22" fill="#4b4ad1"/>
+<text x="119" y="88.5" font-size="14" font-weight="800" fill="#4b4ad1">부적합 추천 90권 중 14권 → 2권</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">18개 질의 · 팀원 4명이 직접 채점</text>
+<line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
+<text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">데모 · 4인 팀 팀장</text>
+<text x="422" y="152" font-size="11.5" font-weight="800" fill="#4b4ad1" text-anchor="end">사례 보기</text>
+</svg>

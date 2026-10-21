@@ -1,62 +1,33 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img alt="이주형 — 17억 성과의 기획 역량을 AI로 확장하는 엔지니어. 누적 매출 17.18억(PM) · KPI 최대 초과 155% · 정확도 84→98% 룰 ablation 실측 · 인문학→AI 탐색연구" src="assets/banner-light.svg" width="100%">
-</picture>
+<img alt="이주형 · 현장의 문제를 정의하고 AI로 해결하는 엔지니어. Cofathon 2026 KRAFTON FDE 트랙 최우수 수상 · 제안 PM으로 참여한 제안의 누적 매출 17.18억 · 제안서 완성 기간 5일 → 2일 · 위메이드엑스알 AI 엔지니어 인턴" src="assets/banner.svg" width="100%">
 
-B2B 콘텐츠 제안 PM으로 3년간 누적 **17.18억 원** 매출을 책임졌습니다. 지금은 그 판단 기준을 코드로 옮겨 — 추천 수식 설계부터 RAG 검색·평가 파이프라인, 에이전트 안전 설계까지 직접 만들고 측정합니다. 기획의 언어와 엔지니어링의 언어를 한 테이블에 올립니다.
+Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드엑스알에서 AI 엔지니어 인턴으로 일합니다. 제안 PM으로 참여한 제안의 누적 매출 17억, 그때처럼 쓰는 사람의 기준을 먼저 받아 와 AI가 그 기준대로 움직이게 만들고 결과를 잽니다.
+
+작품 모음 [ljhljh0703-cmd.github.io](https://ljhljh0703-cmd.github.io/) · 메일 [ljhljh0703@gmail.com](mailto:ljhljh0703@gmail.com)
+
+직무별 대표 작업: [플랫폼 · 서버](https://ljhljh0703-cmd.github.io/platform/) · [AI 엔지니어](https://ljhljh0703-cmd.github.io/ai/) · [현장 AI 배치](https://ljhljh0703-cmd.github.io/fde/) · [게임 개발](https://ljhljh0703-cmd.github.io/game/) · [AI 에이전트](https://ljhljh0703-cmd.github.io/agent/) · [전체 목록](https://ljhljh0703-cmd.github.io/all/)
 
 ### 대표 프로젝트
 
 <table>
 <tr>
-<td width="50%">
-<a href="https://ljhljh0703-cmd.github.io/AI-Book-Curation/portfolio.html">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-bookmon-dark.svg"><img alt="북켓몬 — AI 도서 큐레이션. 정확도 84.44→97.78% 룰 ablation 실측" src="assets/card-bookmon-light.svg" width="100%"></picture>
-</a>
-</td>
-<td width="50%">
-<a href="https://ljhljh0703-cmd.github.io/Medical-Chatbot/portfolio.html">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-medical-rag-dark.svg"><img alt="알려줄고양 — 내과 자문 RAG 챗봇. EM 0.71 · BERTScore 0.73 실측, 3원 통제" src="assets/card-medical-rag-light.svg" width="100%"></picture>
-</a>
-</td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/game-ops/"><img alt="게임 운영 플랫폼. 디스코드 버그 제보를 깃허브 이슈와 제보자 답장까지 잇는 서버. 서버 테스트 214건 통과, 실제 플레이어 제보 6건이 개발 지시서 1건으로" src="assets/card-game-ops.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/game-ops-platform">코드</a> · Java · Spring Boot · PostgreSQL</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/AI-Book-Curation/portfolio.html"><img alt="북켓몬 AI 도서 추천. 부적합 추천 90권 중 14권에서 2권으로, 18개 질의를 팀원 4명이 직접 채점" src="assets/card-bookmon.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/AI-Book-Curation">코드</a> · 4인 팀 팀장</sub></td>
 </tr>
 <tr>
-<td width="50%">
-<a href="https://ljhljh0703-cmd.github.io/ai-npc-social-reasoning-harness/">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-rocket-sim-dark.svg"><img alt="로켓단 — 사회추론 시뮬레이션. N=20 시드 고정 하네스, claim gate 미통과는 탐색적 경향으로 정직 보고" src="assets/card-rocket-sim-light.svg" width="100%"></picture>
-</a>
-</td>
-<td width="50%">
-<a href="https://ljhljh0703-cmd.github.io/hyunsoo-bot/portfolio.html">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-hyunsoo-bot-dark.svg"><img alt="현수봇 QuantLeap — 자동매매 에이전트. dry-run eval 100%, 리스크 레이어와 HITL" src="assets/card-hyunsoo-bot-light.svg" width="100%"></picture>
-</a>
-</td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/jelly-panic-case/"><img alt="지켜줘! 젤리 패닉. 무작위 500판에서 막을 수 없는 위협 0건, 테스트 106개 통과, 스토어 심사 제출" src="assets/card-jelly-panic.svg" width="100%"></a><br><sub><a href="https://ljhljh0703-cmd.github.io/jelly-panic/">바로 플레이</a> · <a href="https://github.com/ljhljh0703-cmd/jelly-panic">코드</a></sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/StarLink/portfolio.html"><img alt="StarLink 실시간 통역. 주변 외국어를 한국어로 바꿔 보청기로 들려줌. 20초 뒤 멈추던 통역을 계속 이어지게 고침" src="assets/card-starlink.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/StarLink">코드</a> · Swift · Python</sub></td>
 </tr>
 <tr>
-<td width="50%">
-<a href="https://ljhljh0703-cmd.github.io/StarLink/portfolio.html">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-starlink-dark.svg"><img alt="StarLink — 실시간 통역 iOS. 보청기로 듣는 핸즈프리 통역, EN·JA·ZH→KO" src="assets/card-starlink-light.svg" width="100%"></picture>
-</a>
-</td>
-<td width="50%">
-<a href="https://penelope-ontology.vercel.app">
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-penelope-dark.svg"><img alt="페넬로페 · 세계관 온톨로지 서사 엔진. 문단 생성 전 세계 설정과 인과 상태를 먼저 시뮬레이션. Vitest 893 통과" src="assets/card-penelope-light.svg" width="100%"></picture>
-</a>
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="middle">
-<a href="https://github.com/ljhljh0703-cmd?tab=repositories"><b>+ 전체 저장소 보기 →</b></a> · <sub>Game-PM AI Suite · AI Game Dev 등은 포트폴리오 완성 후 카드로 합류합니다.</sub>
-</td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/Medical-Chatbot/portfolio.html"><img alt="알려줄고양 내과 자문 챗봇. 응급 문구 13가지는 모델을 거치지 않고 119 안내, 경고 단어 37개는 경고 뒤 답변" src="assets/card-medical-rag.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/Medical-Chatbot/tree/juhyeong">코드</a> · 4인 팀 팀장</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/agent-forge/portfolio.html"><img alt="Agent Forge. 아이디어 한 줄로 기획서·그림·게임·검사가 차례로 도는 파이프라인. 멈춘 가짜 게임 3번 중 3번 차단" src="assets/card-agent-forge.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/agent-forge">코드</a> · TypeScript</sub></td>
 </tr>
 </table>
 
+저장소마다 README 맨 위에 실행 방법, 시험 명령, 내가 정한 것 · AI가 짠 것 · 내가 확인한 것을 적어 두었습니다.
+
 ### 함께 보기
 
-- 🗺 **[Learning Atlas](https://ljhljh0703-cmd.github.io/learning-atlas/)** — 학습 아카이브. 182편, 매주 자동 갱신, 누출 0. 이 포트폴리오를 만든 시스템입니다.
-- 🎨 **[Vibe Design Studio](https://ljhljh0703-cmd.github.io/VDS/)** — 디자인 시스템 스튜디오. 카탈로그 77 · 프리셋 33, 카드마다 복붙 DESIGN.md.
-- 🗂 **[작품 모음](https://ljhljh0703-cmd.github.io/)** — 대표 작품 9개와 종류별 묶음(게임·AI 서비스·시스템·대회·실무·창작).
-
-### 수치를 읽는 법
-
-이 프로필의 수치는 실제 측정된 수치만 사용합니다. stage 라벨(데모 · 작동 프로토타입 · 탐색 연구)을 그대로 두고, 측정 전인 것은 측정 전이라고 정직하게 표기합니다 — 예시)AI 사회추론 시뮬레이션의 결과는 claim gate를 넘지 못해서 "탐색적 경향"으로만 표시했습니다.
+- [Cofathon 2026](https://ljhljh0703-cmd.github.io/cofathon/): 비개발자 현업 담당자를 4시간 안에 인터뷰하고, 그 사람의 판단 기준대로 움직이는 연습 도구를 만들어 최우수 수상
+- [회귀자는 탑을 오른다](https://ljhljh0703-cmd.github.io/hwigi-tower-portfolio/Docs/Portfolio/hwigi-tower-steam-portfolio.html): 강화학습으로 전투 규칙의 빈틈을 찾아 동료의 행동 규칙으로 옮긴 Unity 게임
+- [Learning Atlas](https://ljhljh0703-cmd.github.io/learning-atlas/): 매주 공개하는 공부 기록
+- [Vibe Design Studio](https://ljhljh0703-cmd.github.io/VDS/case.html): 바이브 코더용 디자인 시스템 모음

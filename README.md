@@ -10,11 +10,11 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 
 <table>
 <tr>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/game-ops/"><img alt="게임 운영 플랫폼. 디스코드 버그 제보를 깃허브 이슈와 제보자 답장까지 잇는 서버. 서버 테스트 214건 통과, 실제 플레이어 제보 6건이 개발 지시서 1건으로" src="assets/card-game-ops.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/game-ops-platform">코드</a> · Java · Spring Boot · PostgreSQL</sub></td>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/AI-Book-Curation/portfolio.html"><img alt="북켓몬 AI 도서 추천. 부적합 추천 90권 중 14권에서 2권으로, 18개 질의를 팀원 4명이 직접 채점" src="assets/card-bookmon.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/AI-Book-Curation">코드</a> · 4인 팀 팀장</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/game-ops/"><img alt="게임 운영 플랫폼. 플레이어 제보가 그대로 개발 지시서가 되는 운영 자동화. 실제 플레이어 제보 6건이 개발 지시서 1건으로, 고친 PR이 합쳐지면 제보자에게 답장" src="assets/card-game-ops.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/game-ops-platform">코드</a> · Java · Spring Boot · PostgreSQL</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/AI-Book-Curation/portfolio.html"><img alt="북켓몬 AI 도서 검색·추천. 질문의 뜻에 맞는 책만 위로 올려 엉뚱한 추천 90권 중 14권에서 2권으로, 18개 질의를 팀원 4명이 직접 채점" src="assets/card-bookmon.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/AI-Book-Curation">코드</a> · 4인 팀 팀장</sub></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/jelly-panic-case/"><img alt="지켜줘! 젤리 패닉. 무작위 500판에서 막을 수 없는 위협 0건, 테스트 106개 통과, 스토어 심사 제출" src="assets/card-jelly-panic.svg" width="100%"></a><br><sub><a href="https://ljhljh0703-cmd.github.io/jelly-panic/">바로 플레이</a> · <a href="https://github.com/ljhljh0703-cmd/jelly-panic">코드</a></sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/jelly-panic-case/"><img alt="지켜줘! 젤리 패닉. 재미 규칙을 먼저 정하고 무작위 500판에서 막을 수 없는 위협 0건으로 증명" src="assets/card-jelly-panic.svg" width="100%"></a><br><sub><a href="https://ljhljh0703-cmd.github.io/jelly-panic/">바로 플레이</a> · <a href="https://github.com/ljhljh0703-cmd/jelly-panic">코드</a></sub></td>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/StarLink/portfolio.html"><img alt="StarLink 실시간 통역. 주변 외국어를 한국어로 바꿔 보청기로 들려줌. 20초 뒤 멈추던 통역을 계속 이어지게 고침" src="assets/card-starlink.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/StarLink">코드</a> · Swift · Python</sub></td>
 </tr>
 <tr>

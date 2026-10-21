@@ -37,11 +37,11 @@ text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI'
   <rect class="bk-c" x="11" y="25" width="16" height="4.5" rx="1" opacity=".55"/>
   <rect class="bk-bad" x="11" y="33" width="12" height="4.5" rx="1" opacity=".3" stroke="#c0412a"/>
 </g></g>
-<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">북켓몬 · AI 도서 추천</text>
-<text x="112" y="58" font-size="12" fill="#5e5647">질문의 뜻을 중심에 둔 순위 규칙</text>
+<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">북켓몬 · AI 도서 검색·추천</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">질문의 뜻에 맞는 책만 위로 올리는 추천 순위</text>
 <rect x="108" y="72" width="4" height="22" fill="#4b4ad1"/>
-<text x="119" y="88.5" font-size="14" font-weight="800" fill="#4b4ad1">부적합 추천 90권 중 14권 → 2권</text>
-<text x="112" y="117" font-size="11.5" fill="#5e5647">18개 질의 · 팀원 4명이 직접 채점</text>
+<text x="119" y="88.5" font-size="14" font-weight="800" fill="#4b4ad1">엉뚱한 추천 90권 중 14권 → 2권</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">18개 질의 상위 5권 · 팀원 4명 채점</text>
 <line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
 <text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">데모 · 4인 팀 팀장</text>
 <text x="422" y="152" font-size="11.5" font-weight="800" fill="#4b4ad1" text-anchor="end">사례 보기</text>

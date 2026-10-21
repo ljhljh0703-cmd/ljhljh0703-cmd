@@ -37,10 +37,10 @@ text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI'
   <rect class="jp-cov" x="31.5" y="19.5" width="9" height="9" rx="1" fill="#2f7d3a" stroke="none"/>
 </g></g>
 <text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">지켜줘! 젤리 패닉</text>
-<text x="112" y="58" font-size="12" fill="#5e5647">막을 칸이 있을 때만 위협이 생기는 퍼즐 디펜스</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">재미 규칙을 먼저 정하고 500판으로 증명한 퍼즐</text>
 <rect x="108" y="72" width="4" height="22" fill="#207878"/>
 <text x="119" y="88.5" font-size="14" font-weight="800" fill="#207878">무작위 500판, 막을 수 없는 위협 0건</text>
-<text x="112" y="117" font-size="11.5" fill="#5e5647">테스트 106개 통과 · 스토어 심사 제출</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">규칙이 없던 방식이면 막을 수 없는 칸 18.2%</text>
 <line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
 <text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">웹 플레이 · 개인</text>
 <text x="422" y="152" font-size="11.5" font-weight="800" fill="#207878" text-anchor="end">사례 보기</text>

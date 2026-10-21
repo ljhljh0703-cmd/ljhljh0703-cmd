@@ -21,12 +21,12 @@ def textw(s, fs):
 
 # ── 대표 카드 6장 (순서 = README 표 순서). 출처: 작품 모음 curation.json items · 작품 페이지 첫 화면
 CARDS = [
- dict(slug='game-ops', ink=TEAL, title='게임 운영 플랫폼', sub='디스코드 버그 제보 → 깃허브 이슈 → 제보자 답장',
-      result='서버 테스트 214건 통과', line2='실제 플레이어 제보 6건 → 개발 지시서 1건', stage='작동 데모 · 개인'),
- dict(slug='bookmon', ink=BLUE, title='북켓몬 · AI 도서 추천', sub='질문의 뜻을 중심에 둔 순위 규칙',
-      result='부적합 추천 90권 중 14권 → 2권', line2='18개 질의 · 팀원 4명이 직접 채점', stage='데모 · 4인 팀 팀장'),
- dict(slug='jelly-panic', ink=TEAL, title='지켜줘! 젤리 패닉', sub='막을 칸이 있을 때만 위협이 생기는 퍼즐 디펜스',
-      result='무작위 500판, 막을 수 없는 위협 0건', line2='테스트 106개 통과 · 스토어 심사 제출', stage='웹 플레이 · 개인'),
+ dict(slug='game-ops', ink=TEAL, title='게임 운영 플랫폼', sub='플레이어 제보가 그대로 개발 지시서가 됨',
+      result='실제 플레이어 제보 6건 → 개발 지시서 1건', line2='고친 PR이 합쳐지면 제보자에게 답장', stage='작동 데모 · 개인'),
+ dict(slug='bookmon', ink=BLUE, title='북켓몬 · AI 도서 검색·추천', sub='질문의 뜻에 맞는 책만 위로 올리는 추천 순위',
+      result='엉뚱한 추천 90권 중 14권 → 2권', line2='18개 질의 상위 5권 · 팀원 4명 채점', stage='데모 · 4인 팀 팀장'),
+ dict(slug='jelly-panic', ink=TEAL, title='지켜줘! 젤리 패닉', sub='재미 규칙을 먼저 정하고 500판으로 증명한 퍼즐',
+      result='무작위 500판, 막을 수 없는 위협 0건', line2='규칙이 없던 방식이면 막을 수 없는 칸 18.2%', stage='웹 플레이 · 개인'),
  dict(slug='starlink', ink=TEAL, title='StarLink · 실시간 통역', sub='주변 외국어를 한국어로, 보청기로 바로',
       result='20초 뒤 멈추던 통역 → 계속 이어짐', line2='EN·JA·ZH → KO · 실기기 데모', stage='작동 프로토타입 · 개인'),
  dict(slug='medical-rag', ink=RED, title='알려줄고양 · 내과 자문 챗봇', sub='위험한 질문은 모델 앞에서 거름',

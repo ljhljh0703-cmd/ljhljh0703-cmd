@@ -10,16 +10,16 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 
 <table>
 <tr>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/game-ops/"><img alt="게임 운영 플랫폼. 플레이어 제보가 그대로 개발 지시서가 되는 운영 자동화. 실제 플레이어 제보 6건이 개발 지시서 1건으로, 고친 PR이 합쳐지면 제보자에게 답장" src="assets/card-game-ops.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/game-ops-platform">코드</a> · Java · Spring Boot · PostgreSQL</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/game-ops-platform/portfolio/"><img alt="게임 운영 플랫폼. 플레이어 제보가 그대로 개발 지시서가 되는 운영 자동화. 실제 플레이어 제보 6건이 개발 지시서 1건으로, 고친 PR이 합쳐지면 제보자에게 답장" src="assets/card-game-ops.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/game-ops-platform">코드</a> · Java · Spring Boot · PostgreSQL</sub></td>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/AI-Book-Curation/portfolio.html"><img alt="북켓몬 AI 도서 검색·추천. 질문의 뜻에 맞는 책만 위로 올려 엉뚱한 추천 90권 중 14권에서 2권으로, 18개 질의를 팀원 4명이 직접 채점" src="assets/card-bookmon.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/AI-Book-Curation">코드</a> · 4인 팀 팀장</sub></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/jelly-panic-case/"><img alt="지켜줘! 젤리 패닉. 재미 규칙을 먼저 정하고 무작위 500판에서 막을 수 없는 위협 0건으로 증명" src="assets/card-jelly-panic.svg" width="100%"></a><br><sub><a href="https://ljhljh0703-cmd.github.io/jelly-panic/">바로 플레이</a> · <a href="https://github.com/ljhljh0703-cmd/jelly-panic">코드</a></sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/jelly-panic/portfolio.html"><img alt="지켜줘! 젤리 패닉. 재미 규칙을 먼저 정하고 무작위 500판에서 막을 수 없는 위협 0건으로 증명" src="assets/card-jelly-panic.svg" width="100%"></a><br><sub><a href="https://ljhljh0703-cmd.github.io/jelly-panic/">바로 플레이</a> · <a href="https://github.com/ljhljh0703-cmd/jelly-panic">코드</a></sub></td>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/StarLink/portfolio.html"><img alt="StarLink 실시간 통역. 주변 외국어를 한국어로 바꿔 보청기로 들려줌. 20초 뒤 멈추던 통역을 계속 이어지게 고침" src="assets/card-starlink.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/StarLink">코드</a> · Swift · Python</sub></td>
 </tr>
 <tr>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/Medical-Chatbot/portfolio.html"><img alt="알려줄고양 내과 자문 챗봇. 응급 문구 13가지는 모델을 거치지 않고 119 안내, 경고 단어 37개는 경고 뒤 답변" src="assets/card-medical-rag.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/Medical-Chatbot/tree/juhyeong">코드</a> · 4인 팀 팀장</sub></td>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/penelope/"><img alt="Penelope 이야기 생성 엔진. 선택 하나에 장면 밖 인물까지 반응하고, 이야기가 무너지는 네 조건을 가드레일로 막음. 자동 시험 893개 모두 통과" src="assets/card-penelope.svg" width="100%"></a><br><sub><a href="https://penelope-ontology.vercel.app">라이브 데모</a> · <a href="https://github.com/ljhljh0703-cmd/penelope-ontology">코드</a> · OpenAI Build Week 제출</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/penelope-ontology/portfolio/"><img alt="Penelope 이야기 생성 엔진. 선택 하나에 장면 밖 인물까지 반응하고, 이야기가 무너지는 네 조건을 가드레일로 막음. 자동 시험 893개 모두 통과" src="assets/card-penelope.svg" width="100%"></a><br><sub><a href="https://penelope-ontology.vercel.app">라이브 데모</a> · <a href="https://github.com/ljhljh0703-cmd/penelope-ontology">코드</a> · OpenAI Build Week 제출</sub></td>
 </tr>
 </table>
 

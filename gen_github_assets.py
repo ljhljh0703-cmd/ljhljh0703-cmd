@@ -31,8 +31,8 @@ CARDS = [
       result='20초 뒤 멈추던 통역 → 계속 이어짐', line2='EN·JA·ZH → KO · 실기기 데모', stage='작동 프로토타입 · 개인'),
  dict(slug='medical-rag', ink=RED, title='알려줄고양 · 내과 자문 챗봇', sub='위험한 질문은 모델 앞에서 거름',
       result='응급 문구 13가지 → 바로 119 안내', line2='경고 단어 37개는 경고 뒤 답변', stage='데모 · 4인 팀 팀장'),
- dict(slug='penelope', ink=BLUE, title='Penelope · 이야기 세계 엔진', sub='문장보다 세계 상태를 먼저 계산하는 이야기 엔진',
-      result='자동 시험 893개 모두 통과', line2='인물별 지식 시험 7개 · 창작자 판정 시험 21개', stage='공개 라이브 데모 · OpenAI Build Week 제출'),
+ dict(slug='penelope', ink=BLUE, title='Penelope · 이야기 생성 엔진', sub='선택 하나에 세계 속 인물이 모두 반응하는 엔진',
+      result='자동 시험 893개 모두 통과', line2='장면 밖 인물 반응 · 이야기 가드레일 4개', stage='공개 라이브 데모 · OpenAI Build Week 제출'),
 ]
 
 # ── 카드 왼쪽 그림(48칸 무대). {c}=작품 색 {w}=차단 {ok}=통과

@@ -19,7 +19,7 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 </tr>
 <tr>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/Medical-Chatbot/portfolio.html"><img alt="알려줄고양 내과 자문 챗봇. 응급 문구 13가지는 모델을 거치지 않고 119 안내, 경고 단어 37개는 경고 뒤 답변" src="assets/card-medical-rag.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/Medical-Chatbot/tree/juhyeong">코드</a> · 4인 팀 팀장</sub></td>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/penelope/"><img alt="Penelope 이야기 세계 엔진. 비밀이 아는 인물에게만 가고 선택의 대가가 남도록, 문장보다 세계 상태를 먼저 계산함. 자동 시험 893개 모두 통과" src="assets/card-penelope.svg" width="100%"></a><br><sub><a href="https://penelope-ontology.vercel.app">라이브 데모</a> · <a href="https://github.com/ljhljh0703-cmd/penelope-ontology">코드</a> · OpenAI Build Week 제출</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/penelope/"><img alt="Penelope 이야기 생성 엔진. 선택 하나에 장면 밖 인물까지 반응하고, 이야기가 무너지는 네 조건을 가드레일로 막음. 자동 시험 893개 모두 통과" src="assets/card-penelope.svg" width="100%"></a><br><sub><a href="https://penelope-ontology.vercel.app">라이브 데모</a> · <a href="https://github.com/ljhljh0703-cmd/penelope-ontology">코드</a> · OpenAI Build Week 제출</sub></td>
 </tr>
 </table>
 

@@ -31,8 +31,8 @@ CARDS = [
       result='20초 뒤 멈추던 통역 → 계속 이어짐', line2='EN·JA·ZH → KO · 실기기 데모', stage='작동 프로토타입 · 개인'),
  dict(slug='medical-rag', ink=RED, title='알려줄고양 · 내과 자문 챗봇', sub='위험한 질문은 모델 앞에서 거름',
       result='응급 문구 13가지 → 바로 119 안내', line2='경고 단어 37개는 경고 뒤 답변', stage='데모 · 4인 팀 팀장'),
- dict(slug='agent-forge', ink=BLUE, title='Agent Forge', sub='아이디어 한 줄 → 기획서 · 그림 · 게임 · 검사',
-      result='멈춘 가짜 게임 3번 중 3번 차단', line2='만든 게임을 화면 없는 브라우저로 직접 조작해 검사', stage='작동 프로토타입 · 개인'),
+ dict(slug='penelope', ink=BLUE, title='Penelope · 이야기 세계 엔진', sub='문장보다 세계 상태를 먼저 계산하는 이야기 엔진',
+      result='자동 시험 893개 모두 통과', line2='인물별 지식 시험 7개 · 창작자 판정 시험 21개', stage='공개 라이브 데모 · OpenAI Build Week 제출'),
 ]
 
 # ── 카드 왼쪽 그림(48칸 무대). {c}=작품 색 {w}=차단 {ok}=통과
@@ -79,6 +79,22 @@ SIG = {
   <line class="md-a1" pathLength="1" x1="33" y1="21" x2="41" y2="21"/>
   <line class="md-a2" pathLength="1" x1="33" y1="25" x2="39" y2="25"/>
   <path class="md-chk" pathLength="1" d="M33 29.5 l2.2 2.2 l4.2 -4.2" stroke="{ok}"/>
+</g>''',
+'penelope': '''<g stroke="{c}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <line class="pn-e1" pathLength="1" x1="9" y1="10" x2="20" y2="7" opacity=".55"/>
+  <line class="pn-e2" pathLength="1" x1="20" y1="7" x2="31" y2="12" opacity=".55"/>
+  <line class="pn-e3" pathLength="1" x1="9" y1="10" x2="16" y2="20" opacity=".55"/>
+  <line class="pn-e4" pathLength="1" x1="31" y1="12" x2="24" y2="21" opacity=".55"/>
+  <circle class="pn-n1" cx="9" cy="10" r="2.1" fill="{c}" stroke="none"/>
+  <circle class="pn-n2" cx="20" cy="7" r="2.1" fill="{c}" stroke="none"/>
+  <circle class="pn-n3" cx="31" cy="12" r="2.1" fill="{c}" stroke="none"/>
+  <circle cx="16" cy="20" r="1.9" fill="{c}" stroke="none" opacity=".85"/>
+  <circle cx="24" cy="21" r="1.9" fill="{c}" stroke="none" opacity=".85"/>
+  <path class="pn-chk" pathLength="1" d="M34 15 l2 2.2 l4.5 -4.8" stroke="{ok}"/>
+  <line x1="7" y1="27.5" x2="41" y2="27.5" opacity=".22" stroke-dasharray="2 2.5"/>
+  <line class="pn-p1" pathLength="1" x1="8" y1="33" x2="40" y2="33" opacity=".8"/>
+  <line class="pn-p2" pathLength="1" x1="8" y1="38" x2="34" y2="38" opacity=".6"/>
+  <line class="pn-p3" pathLength="1" x1="8" y1="43" x2="27" y2="43" opacity=".45"/>
 </g>''',
 'agent-forge': '''<g stroke="{c}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
   <rect x="2" y="14" width="8" height="8" rx="1"/><rect x="14" y="14" width="8" height="8" rx="1"/><rect x="26" y="14" width="8" height="8" rx="1"/><rect x="38" y="14" width="8" height="8" rx="1" stroke="{ok}"/>
@@ -131,6 +147,12 @@ BIND = {
 .md-chk{stroke-dasharray:1;animation:drawChk 7.2s ease infinite}
 .md-gate{animation:gate 7.2s ease infinite}
 .md-x{stroke-dasharray:1;animation:drawX 7.2s ease infinite}''',
+'penelope': '''.pn-e1,.pn-e2,.pn-e3,.pn-e4{stroke-dasharray:1;animation:drawA 7.2s ease infinite}
+.pn-e2{animation-delay:.2s}.pn-e3{animation-delay:.4s}.pn-e4{animation-delay:.6s}
+.pn-n1{animation:pulse 2.4s ease-in-out infinite}.pn-n2{animation:pulse 2.4s ease-in-out .3s infinite}.pn-n3{animation:pulse 2.4s ease-in-out .6s infinite}
+.pn-chk{stroke-dasharray:1;animation:drawChk 7.2s ease infinite}
+.pn-p1,.pn-p2,.pn-p3{stroke-dasharray:1;animation:drawLate 7.2s ease infinite}
+.pn-p2{animation-delay:.25s}.pn-p3{animation-delay:.5s}''',
 'agent-forge': '''.af-dot{animation:travel 7.2s cubic-bezier(.4,0,.2,1) infinite}
 .af-bad{animation:drop 7.2s ease infinite}
 .af-chk{stroke-dasharray:1;animation:drawLate 7.2s ease infinite}''',

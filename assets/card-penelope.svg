@@ -23,25 +23,37 @@ text{font-family:'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI'
 
 .sig *{transform-box:fill-box;transform-origin:center}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
-.af-dot{animation:travel 7.2s cubic-bezier(.4,0,.2,1) infinite}
-.af-bad{animation:drop 7.2s ease infinite}
-.af-chk{stroke-dasharray:1;animation:drawLate 7.2s ease infinite}
+.pn-e1,.pn-e2,.pn-e3,.pn-e4{stroke-dasharray:1;animation:drawA 7.2s ease infinite}
+.pn-e2{animation-delay:.2s}.pn-e3{animation-delay:.4s}.pn-e4{animation-delay:.6s}
+.pn-n1{animation:pulse 2.4s ease-in-out infinite}.pn-n2{animation:pulse 2.4s ease-in-out .3s infinite}.pn-n3{animation:pulse 2.4s ease-in-out .6s infinite}
+.pn-chk{stroke-dasharray:1;animation:drawChk 7.2s ease infinite}
+.pn-p1,.pn-p2,.pn-p3{stroke-dasharray:1;animation:drawLate 7.2s ease infinite}
+.pn-p2{animation-delay:.25s}.pn-p3{animation-delay:.5s}
 </style>
 <rect x="1" y="1" width="438" height="174" rx="3" fill="#f1e9d8" stroke="#1b1a17" stroke-width="1.5"/>
 <rect x="16" y="-4" width="56" height="16" fill="#4b4ad1" opacity=".55" transform="rotate(-6 44 4)"/>
 <g class="sig" transform="translate(20,50) scale(1.55)"><g stroke="#4b4ad1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
-  <rect x="2" y="14" width="8" height="8" rx="1"/><rect x="14" y="14" width="8" height="8" rx="1"/><rect x="26" y="14" width="8" height="8" rx="1"/><rect x="38" y="14" width="8" height="8" rx="1" stroke="#2f7d3a"/>
-  <line x1="10" y1="18" x2="14" y2="18" opacity=".6"/><line x1="22" y1="18" x2="26" y2="18" opacity=".6"/><line x1="34" y1="18" x2="38" y2="18" opacity=".6"/>
-  <circle class="af-dot" cx="6" cy="18" r="1.7" fill="#4b4ad1" stroke="none"/>
-  <g class="af-bad" stroke="#c0412a"><rect x="26" y="30" width="8" height="8" rx="1"/><path d="M28 32 L32 36 M32 32 L28 36"/></g>
-  <path class="af-chk" pathLength="1" d="M39 30 l2.2 2.2 l4.4 -4.6" stroke="#2f7d3a"/>
+  <line class="pn-e1" pathLength="1" x1="9" y1="10" x2="20" y2="7" opacity=".55"/>
+  <line class="pn-e2" pathLength="1" x1="20" y1="7" x2="31" y2="12" opacity=".55"/>
+  <line class="pn-e3" pathLength="1" x1="9" y1="10" x2="16" y2="20" opacity=".55"/>
+  <line class="pn-e4" pathLength="1" x1="31" y1="12" x2="24" y2="21" opacity=".55"/>
+  <circle class="pn-n1" cx="9" cy="10" r="2.1" fill="#4b4ad1" stroke="none"/>
+  <circle class="pn-n2" cx="20" cy="7" r="2.1" fill="#4b4ad1" stroke="none"/>
+  <circle class="pn-n3" cx="31" cy="12" r="2.1" fill="#4b4ad1" stroke="none"/>
+  <circle cx="16" cy="20" r="1.9" fill="#4b4ad1" stroke="none" opacity=".85"/>
+  <circle cx="24" cy="21" r="1.9" fill="#4b4ad1" stroke="none" opacity=".85"/>
+  <path class="pn-chk" pathLength="1" d="M34 15 l2 2.2 l4.5 -4.8" stroke="#2f7d3a"/>
+  <line x1="7" y1="27.5" x2="41" y2="27.5" opacity=".22" stroke-dasharray="2 2.5"/>
+  <line class="pn-p1" pathLength="1" x1="8" y1="33" x2="40" y2="33" opacity=".8"/>
+  <line class="pn-p2" pathLength="1" x1="8" y1="38" x2="34" y2="38" opacity=".6"/>
+  <line class="pn-p3" pathLength="1" x1="8" y1="43" x2="27" y2="43" opacity=".45"/>
 </g></g>
-<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">Agent Forge</text>
-<text x="112" y="58" font-size="12" fill="#5e5647">아이디어 한 줄 → 기획서 · 그림 · 게임 · 검사</text>
+<text x="112" y="38" font-size="19" font-weight="800" fill="#1b1a17">Penelope · 이야기 세계 엔진</text>
+<text x="112" y="58" font-size="12" fill="#5e5647">문장보다 세계 상태를 먼저 계산하는 이야기 엔진</text>
 <rect x="108" y="72" width="4" height="22" fill="#4b4ad1"/>
-<text x="119" y="88.5" font-size="14" font-weight="800" fill="#4b4ad1">멈춘 가짜 게임 3번 중 3번 차단</text>
-<text x="112" y="117" font-size="11.5" fill="#5e5647">만든 게임을 화면 없는 브라우저로 직접 조작해 검사</text>
+<text x="119" y="88.5" font-size="14" font-weight="800" fill="#4b4ad1">자동 시험 893개 모두 통과</text>
+<text x="112" y="117" font-size="11.5" fill="#5e5647">인물별 지식 시험 7개 · 창작자 판정 시험 21개</text>
 <line x1="112" y1="131" x2="424" y2="131" stroke="#cfc4ad" stroke-width="1"/>
-<text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">작동 프로토타입 · 개인</text>
+<text x="112" y="152" font-size="11" font-weight="700" fill="#1b1a17">공개 라이브 데모 · OpenAI Build Week 제출</text>
 <text x="422" y="152" font-size="11.5" font-weight="800" fill="#4b4ad1" text-anchor="end">사례 보기</text>
 </svg>

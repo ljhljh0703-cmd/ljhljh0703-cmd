@@ -4,7 +4,7 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 
 작품 모음 [ljhljh0703-cmd.github.io](https://ljhljh0703-cmd.github.io/) · 메일 [ljhljh0703@gmail.com](mailto:ljhljh0703@gmail.com)
 
-직무별 대표 작업: [플랫폼 · 서버](https://ljhljh0703-cmd.github.io/platform/) · [AI 엔지니어](https://ljhljh0703-cmd.github.io/ai/) · [현장 AI 배치](https://ljhljh0703-cmd.github.io/fde/) · [게임 개발](https://ljhljh0703-cmd.github.io/game/) · [AI 에이전트](https://ljhljh0703-cmd.github.io/agent/) · [전체 목록](https://ljhljh0703-cmd.github.io/all/)
+직무별 대표 작업: [플랫폼 · 서버](https://ljhljh0703-cmd.github.io/platform/) · [AI 엔지니어](https://ljhljh0703-cmd.github.io/ai/) · [현장 AI 배치](https://ljhljh0703-cmd.github.io/fde/) · [게임 개발](https://ljhljh0703-cmd.github.io/game/) · [AI 에이전트](https://ljhljh0703-cmd.github.io/agent/) · [AI 스토리텔링](https://ljhljh0703-cmd.github.io/story/) · [전체 목록](https://ljhljh0703-cmd.github.io/all/)
 
 ### 대표 프로젝트
 
@@ -19,7 +19,7 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 </tr>
 <tr>
 <td width="50%"><a href="https://ljhljh0703-cmd.github.io/Medical-Chatbot/portfolio.html"><img alt="알려줄고양 내과 자문 챗봇. 응급 문구 13가지는 모델을 거치지 않고 119 안내, 경고 단어 37개는 경고 뒤 답변" src="assets/card-medical-rag.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/Medical-Chatbot/tree/juhyeong">코드</a> · 4인 팀 팀장</sub></td>
-<td width="50%"><a href="https://ljhljh0703-cmd.github.io/agent-forge/portfolio.html"><img alt="Agent Forge. 아이디어 한 줄로 기획서·그림·게임·검사가 차례로 도는 파이프라인. 멈춘 가짜 게임 3번 중 3번 차단" src="assets/card-agent-forge.svg" width="100%"></a><br><sub><a href="https://github.com/ljhljh0703-cmd/agent-forge">코드</a> · TypeScript</sub></td>
+<td width="50%"><a href="https://ljhljh0703-cmd.github.io/penelope/"><img alt="Penelope 이야기 세계 엔진. 비밀이 아는 인물에게만 가고 선택의 대가가 남도록, 문장보다 세계 상태를 먼저 계산함. 자동 시험 893개 모두 통과" src="assets/card-penelope.svg" width="100%"></a><br><sub><a href="https://penelope-ontology.vercel.app">라이브 데모</a> · <a href="https://github.com/ljhljh0703-cmd/penelope-ontology">코드</a> · OpenAI Build Week 제출</sub></td>
 </tr>
 </table>
 
@@ -29,5 +29,6 @@ Cofathon 2026(크래프톤 FDE 트랙) 최우수 수상. 지금은 위메이드�
 
 - [Cofathon 2026](https://ljhljh0703-cmd.github.io/cofathon/): 비개발자 현업 담당자를 4시간 안에 인터뷰하고, 그 사람의 판단 기준대로 움직이는 연습 도구를 만들어 최우수 수상
 - [회귀자는 탑을 오른다](https://ljhljh0703-cmd.github.io/hwigi-tower-portfolio/Docs/Portfolio/hwigi-tower-steam-portfolio.html): 강화학습으로 전투 규칙의 빈틈을 찾아 동료의 행동 규칙으로 옮긴 Unity 게임
+- [Agent Forge](https://ljhljh0703-cmd.github.io/agent-forge/portfolio.html): 아이디어 한 줄로 기획서·그림·게임·검사가 차례로 도는 파이프라인
 - [Learning Atlas](https://ljhljh0703-cmd.github.io/learning-atlas/): 매주 공개하는 공부 기록
 - [Vibe Design Studio](https://ljhljh0703-cmd.github.io/VDS/case.html): 바이브 코더용 디자인 시스템 모음
